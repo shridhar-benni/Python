@@ -9,7 +9,7 @@ When we are programming we depend on the interpreter to identify errors, but som
 ### OR
 function():<br>
 &nbsp;if True or error:<br>
-\t\t#operations<br>
+(&nbsp)*2;#operations<br>
 \telse:<br>
 \t\t#operations<br>
 
