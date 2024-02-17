@@ -1,2 +1,2 @@
-# Python
-This repo contains new findings I came trough in Python and my work in Python
+# Errors
+This folder contains the interesting errors I encountered in Python programming.
