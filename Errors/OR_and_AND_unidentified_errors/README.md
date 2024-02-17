@@ -6,11 +6,16 @@ When we are programming we depend on the interpreter to identify errors, but som
 
 ## details 
 
-# AND
-function():
-  if True or error:
-    #operations
-  else:
-    #operations
+### AND
+function():<br>
+  if True or error:<br>
+    #operations<br>
+  else:<br>
+    #operations<br>
+
+* If the above function is caller there will be no error, inspite of not declaring error variable. 
+* This is because when we are comparing two condition with OR if first contion true second condition dosen't matter.
+* because of this behaiour operations under the is condition will be executed.
+
 
 
