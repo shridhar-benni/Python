@@ -9,9 +9,9 @@ When we are programming we depend on the interpreter to identify errors, but som
 ### OR
 function():<br>
 &nbsp;if True or error:<br>
-(&nbsp)*2;#operations<br>
-\telse:<br>
-\t\t#operations<br>
+&ensp;#operations<br>
+&nbsp;else:<br>
+&ensp;#operations<br>
 
 * If the above function is called there will be no error, despite not declaring the error variable. 
 * This is because when we are comparing two conditions with OR if the first condition is true second condition doesn't matter.
@@ -20,10 +20,10 @@ function():<br>
 
 ### AND
 function():<br>
-\tif False and error:<br>
-\t\t#operations<br>
-\telse:<br>
-\t\t#operations<br>
+&nbsp;if False and error:<br>
+&ensp;#operations<br>
+&nbsp;else:<br>
+&ensp;#operations<br>
 
 * If the above function is called there will be no error, despite not declaring the error variable. 
 * This is because when we are comparing two conditions with AND if the first condition is false second condition doesn't matter.
